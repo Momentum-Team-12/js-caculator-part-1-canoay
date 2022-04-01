@@ -1,12 +1,4 @@
 
-// let bnum1 = document.getElementById('num1')
-// bnum1.addEventListener('click', function() { 
-//     console.log(1)})
-
-// let bnum1 = document.getElementById('num2')
-// bnum1.addEventListener('click', function() { 
-//     console.log(1)})
-
 let bclear = document.querySelector('#opC')
 bclear.addEventListener('click', function() { 
     console.log('')})
@@ -57,5 +49,21 @@ bopdiv.addEventListener('click', function() {
 
 let bopmult= document.querySelector('#opmult')
 bopmult.addEventListener('click', function() { 
-    console.log(*)})
+    console.log('*')})
+
+let bopsub= document.querySelector('#opsub')
+bopsub.addEventListener('click', function() { 
+    console.log('-')})
+
+let bopadd= document.querySelector('#opadd')
+bopadd.addEventListener('click', function() { 
+    console.log('+')})
+
+let bopdec= document.querySelector('#opdec')
+bopdec.addEventListener('click', function() { 
+    console.log('.')})
+
+let bequal= document.querySelector('#equal')
+bequal.addEventListener('click', function() { 
+    console.log('=')})
 
